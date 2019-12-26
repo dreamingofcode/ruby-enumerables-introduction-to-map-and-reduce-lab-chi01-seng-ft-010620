@@ -80,7 +80,7 @@ end
 
 def reduce_to_any_true(source_array)
   while counter < source_array.length do
-    return true if (source_array.include?(""))
+    return true if (source_array.include?(true))
     counter+= 1
   end
   return false
