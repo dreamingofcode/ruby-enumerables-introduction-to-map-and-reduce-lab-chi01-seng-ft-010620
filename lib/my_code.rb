@@ -77,7 +77,7 @@ def reduce_to_all_true(source_array)
 end
 
 
-
+counter=0
 def reduce_to_any_true(source_array)
   while counter < source_array.length do
     return true if (source_array.include?(true))
