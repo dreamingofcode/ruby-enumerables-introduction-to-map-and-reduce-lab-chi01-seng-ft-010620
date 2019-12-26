@@ -69,7 +69,7 @@ def reduce_to_all_true(source_array)
  
   counter=0 
   while counter< source_array.length do
-    return false if (source_array?)
+    return false if (source_array.include?)
  
     counter += 1 
   end
